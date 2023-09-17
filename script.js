@@ -1,7 +1,12 @@
 //First I need to get a hanndle on my elements.
 var timerEl = document.getElementById('countdown');
 
+
+
+
 //There should be a start button.
+
+
 
 //I need to give the user  countdown.
 function countdown() {
