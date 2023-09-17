@@ -7,34 +7,36 @@
     <title>Web API Code Quiz</title>
     
     <!--Link CSS-->
-    <link rel="stylesheet" href="" />
+    <link href="style.css" rel="stylesheet" />
 </head>
 <body>
     <!--Start off with a title to appear on the page-->
     <h1 style="text-align:center;">Coding Quiz Challenge</h1>
     <!--Create a countdown id-->
     <h2 id="countdown"></h2>
-
+<main>
  <div class="buttonContainer">
 
   <div id="questionsContainer" class="hide"></div>
 
-  <div id="questions">Question</div>
+  <div id="questions"><h1>Question:</h1></div>
 
-  <div id="answerButtons" class="btn-grid">
+  <div id="answerButtons" class="btnGrid">
 
     <button class="btn">Answer 1</button>
     <button class="btn">Answer 2</button>
     <button class="btn">Answer 3</button>
     <button class="btn">Answer 4</button>
-    <button class="btn">Answer 5</button>
 
   <div class="controls"></div>
 
   <button id="startBtn" class="startBtn btn">Start</button>
 
   <button id="nextBtn" class="nextBtn btn hide">Next</button>
-  
+
+  </main>
+
+ 
     <!--link js-->
   <script src= "script.js"></script> 
 </body>
