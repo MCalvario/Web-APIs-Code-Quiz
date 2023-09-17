@@ -1,8 +1,41 @@
 //First I need to get a hanndle on my elements.
+var timerEl = document.getElementById('countdown');
 
 //There should be a start button.
 
 //I need to give the user  countdown.
+function countdown() {
+    var timeLeft = 75;
+    var timeInterval = setInterval(function () {
+        timeLeft--;
+        timerEl.textContent = "Timer:  " + timeLeft;
+        
+        if(timeLeft <= 0) {
+          timerEl.textContent = "";
+          // Stops execution of action at set interval
+          clearInterval(timeInterval);
+          displayMessage();
+        }
+      }, 1000);
+    }
+    
+    function displayMessage() {
+        var wordCount = 0;
+      
+        // Uses the `setInterval()` method to call a function to be executed every 1000 milliseconds
+        var msgInterval = setInterval(function () {
+          if (words[wordCount] === undefined) {
+            // Use `clearInterval()` to stop the timer
+            clearInterval(msgInterval);
+          } else {
+            // Display one word of the message
+            mainEl.textContent = words[wordCount];
+            wordCount++;
+          }
+        }, 1000);
+      }
+      
+      countdown();
 
 //When the timer reaches 0, the game is over.
 
