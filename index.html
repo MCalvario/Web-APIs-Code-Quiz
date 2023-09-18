@@ -3,40 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!--Create a title for your page that will appear in the web tab-->
     <title>Web API Code Quiz</title>
     
     <!--Link CSS-->
     <link href="style.css" rel="stylesheet" />
 </head>
+
 <body>
     <!--Start off with a title to appear on the page-->
     <h1 style="text-align:center;">Coding Quiz Challenge</h1>
+
+    <!--Create a start button-->
+    <button id="startBtn" class="startBtn btn">Start Quiz</button>
+
     <!--Create a countdown id-->
     <h2 id="countdown"></h2>
-<main>
- <div class="buttonContainer">
 
-  <div id="questionsContainer" class="hide"></div>
+    <div class="panel"></div>
+    <div class="question" id="question"></div>
+        <div class="options" id="options"></div>
+        <button onclick="checkAns()" id="btn">SUBMIT</button>
+        <div id="score"></div>
 
-  <div id="questions"><h1>Question:</h1></div>
-
-  <div id="answerButtons" class="btnGrid">
-
-    <button class="btn">Answer 1</button>
-    <button class="btn">Answer 2</button>
-    <button class="btn">Answer 3</button>
-    <button class="btn">Answer 4</button>
-
-  <div class="controls"></div>
-
-  <button id="startBtn" class="startBtn btn">Start</button>
-
-  <button id="nextBtn" class="nextBtn btn hide">Next</button>
-
-  </main>
-
- 
     <!--link js-->
   <script src= "script.js"></script> 
 </body>

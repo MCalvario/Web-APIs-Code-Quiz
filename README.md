@@ -14,6 +14,7 @@ To take the code quiz, click the start button.  A timer will start and you will 
 # Credits
 W3schools:
 Youtube:
+Altcademy:  https://www.altcademy.com/blog/how-to-create-a-button-in-javascript/
 
 # License
 
