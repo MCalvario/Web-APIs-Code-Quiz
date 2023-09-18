@@ -4,17 +4,17 @@
 As a full stack web developer, I want to create a timed quiz on JavaScript fundamentals that stores high scores so that current boot camp students can gauge their progress compared to their peers.
 
 # Usage
-To take the code quiz, click the start button.  A timer will start and you will be presented with a question.  When you answer a question, you will be  presented with another question.  When you answer a question incorrectly, time is subtracted from the clock.  When all questions are answered or the timer reaches 0, the game is over.   You can save your initials and your score when the game is over.
+To take the code quiz, click the start button.  A timer will start and you will be presented with a question.  When you answer a question, you will click submit which will  present you with another question.  When you answer a question incorrectly, time is subtracted from the clock.  When all questions are answered or the timer reaches 0, the game is over.   You can save your initials and your score when the game is over.
 
 # Live Site Application
 [Link to Live Site](https://mcalvario.github.io/Web-APIs-Code-Quiz/)
-[Screenshot of application]()
-[Link to updated portfolio]
+[Screenshot of application](![Alt text](<js quiz.png>))
+[Link to updated portfolio] https://mcalvario.github.io/Professional-Portfolio/
 
 # Credits
-W3schools:
-Youtube:
+Class Activity:  ../../01-Activities/09-Ins_Timers-Intervals
 Altcademy:  https://www.altcademy.com/blog/how-to-create-a-button-in-javascript/
+
 
 # License
 

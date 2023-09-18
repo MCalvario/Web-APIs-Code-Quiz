@@ -150,4 +150,7 @@ function countdown() {
   function displayMessage() {
     timerEl.textContent = " Times up!  Good job! :)";    
   }
+
   countdown();
+
+  
