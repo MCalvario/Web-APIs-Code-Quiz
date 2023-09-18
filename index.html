@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Create a title for your page that will appear in the web tab-->
+    <!--Create a title that will appear in the web tab-->
     <title>Web API Code Quiz</title>
     
     <!--Link CSS-->
@@ -15,7 +15,7 @@
     <!--Start off with a title to appear on the page-->
     <h1 style="text-align:center;">Coding Quiz Challenge</h1>
 
-    <!--Create a start button-->
+    <!--Create a start and view high score button to work on once I get to that part-->
     <button id="startBtn" class="startBtn btn">Start Quiz</button>
     <button id="viewHighScore" class="viewHighScore btn">View High Score</button>
 
@@ -24,8 +24,10 @@
     <!--Create a countdown id-->
     <h2 id="countdown"></h2>
 
+    <!--Create a container to hold all my questions and answers-->
     <div class="question" id="question"></div>
         <div class="options" id="options"></div>
+        <!--answers need to be checked-->
         <button onclick="checkAns()" id="btn">SUBMIT</button>
         <div id="score"></div>
 

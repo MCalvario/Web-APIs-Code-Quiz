@@ -1,19 +1,21 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    /*Choose the font for the page*/
+    /*Choose the font for the page and the syling*/
     font-family:Verdana, Geneva, Tahoma, sans-serif
 
 }
-
+/*I need a background color for the page*/
 body {
     background-color: rgb(245, 248, 248);
 }
  
+/*This will be the font for the question*/
 .question {
     font-size: 30px;
     margin-bottom: 50px;
 }
- 
+
+ /*This will be the font for the options*/
 .options {
     font-size: 30px;
     display:grid;
@@ -31,11 +33,12 @@ button {
     border-radius: 20px;
     cursor: pointer;
 }
-
+/*I need the color to change when I hover over the buttons*/
 .btn:hover {
     background-color: rgb(197, 69, 197);
 }
 
+/*This will be the size and color of the score at the end of the quiz*/
 #score {
     font-size: 30px;
     color: rgb(29, 172, 31);

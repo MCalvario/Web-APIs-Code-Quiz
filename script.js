@@ -30,15 +30,12 @@ function showResults () {
 }
 
 //I need to create a box where user can enter initials at the end of the game.
-
 //User should be able to save initials and score.
 
 
 //I need to ask questions.  
 //I will need an array of objects to keep track.
 //I need answers.  
-//I will need an array of objects to keep track.//I need to keep track of the questions and answers.
-//I need to keep track of the rigt and wrong answers.
 //I will need an array of objects to keep track.
 var Questions = [{
   question: "What does DOM stand for?",
@@ -71,6 +68,10 @@ var Questions = [{
 }
 ]
 
+
+//I need to keep track of the questions and answers.
+//I need to keep track of the rigt and wrong answers.
+//I will need an array of objects to keep track.
 var currentQuestion = 0
 var score = 0
 
