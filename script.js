@@ -134,7 +134,7 @@ function checkAns() {
 //I need to give the user countdown.
 //I need to display the time remaining.
 function countdown() {
-  var timeLeft = 5;
+  var timeLeft = 15;
   var timeInterval = setInterval(function () {
       timeLeft--;
       timerEl.textContent = "Timer:  " + timeLeft;

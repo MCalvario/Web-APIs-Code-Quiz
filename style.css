@@ -1,68 +1,42 @@
 *, *::before, *::after {
     box-sizing: border-box;
     /*Choose the font for the page*/
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
 }
 
-/*pick a white background color*/
 body {
-    background-color: rgb(250, 249, 251)
+    background-color: rgb(245, 248, 248);
 }
-
-#startBtn {
-    width: 150px;
-    max-height: 80%;
-    /*Make it white to blend in with the background*/
-    background-color: rgb(250, 249, 252);
-    
-    padding: 100px;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 10px 20px;
+ 
+.question {
+    font-size: 30px;
+    margin-bottom: 50px;
 }
-
-.btnGrid {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 10px;
-    margin: 20px 0;
+ 
+.options {
+    font-size: 30px;
+    display:grid;
+    grid-template-columns: repeat(1, 2fr);
+    grid-gap: 20px;
 }
-
-.btn {
-    color: rgb(3, 2, 2);
-    background-color: rgb(105, 15, 105);
+ 
+button {
+    margin-right: 700px;
+    margin-top: 5%;
+    font-size: 20px;
+    padding: 10px 50px;
+    background-color: #610c61;
+    color: white;
     border-radius: 20px;
-    padding: 20px 10px;
+    cursor: pointer;
 }
 
 .btn:hover {
     background-color: rgb(197, 69, 197);
 }
 
-.btn.correct {
-background-color: var(background-color-correct);
-background-color: green;
-color: black;
-}
-
-.btn.wrong {
-    background-color: var(background-color-wrong);
-    background-color: red;
-    color: black;
-}
-
-.startBtn, .nextBtn {
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 10px 20px;
-}
-
-.controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hide {
-    display: none;
+#score {
+    font-size: 30px;
+    color: rgb(29, 172, 31);
 }
