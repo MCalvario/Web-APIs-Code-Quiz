@@ -48,7 +48,7 @@ var Questions = [{
   ]
 },
 {
-  question: "Google is a:",
+  question: "Google is a: ",
   answer: [
   { text: "Number in Math", isCorrect: false, isSelected: false },
   { text: "Chat service on the web", isCorrect: false },
@@ -58,7 +58,7 @@ var Questions = [{
 
 },
 {
-  question: "Which of the following tag is used for inserting the largest heading in HTML?",
+  question: "Which of the following tag will give you the largest heading in HTML?",
   answer: [
   { text: "h3", isCorrect: false },
   { text: "h5", isCorrect: false },
@@ -152,6 +152,7 @@ function countdown() {
     timerEl.textContent = " Times up!  Good job! :)";    
   }
 
-  countdown();
+  
 
+  countdown();
   
